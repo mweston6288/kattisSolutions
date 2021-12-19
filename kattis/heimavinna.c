@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// given a string input representing individual and/or a range of numbers,
+// determine how many numbers are in the input
 int main(){
 	int a,b, res = 1;
 	char c;

@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// given an integer, determine if it is odd or even
 int main(){
 	int numCases, n,i;
 	scanf("%d", &numCases);

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// given n pairs of numbers, get the sum of the product of each pair
+
 int main(){
 	int numPer, i;
 	double res = 0, qol, years;

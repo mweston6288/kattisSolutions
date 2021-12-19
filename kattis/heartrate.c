@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// given the number of heart beats in a given time range, determine bpm and the min and max range of actual bpm
+// bpm = 60b/p, range = 60/t
 int main(){
 	int numCases;
 	int beats, i;

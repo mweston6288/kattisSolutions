@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-// Given a right triangle. I know the height and degree of the opposite angle
+// Given a right triangle's height and opposite angle, determine the hypotenuse rounded up
 // sin(x) = opposite / hypotenuse  -> hypotenuse = opposite / sin(x)
 
-//rounds a number up if needed
+// rounds a number up if needed
 int roundup(double d){
 	int i = (int)d;
 	if (i < d){

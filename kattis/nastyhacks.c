@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// given expected revenue without advertising, expected revenue with advertising, and cost of advertising,
+// determine if it is best to advertise or not
 int main(){
 	int numCases;
 	scanf("%d", &numCases);

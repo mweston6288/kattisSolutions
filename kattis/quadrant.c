@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// given a coordinate, determine the quadrant on an xy plane it would be on
+
 int main(){
 	int x,y;
 	scanf("%d %d", &x, &y);

@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+// went for a high space use to reduce amount of math needed
 int ans[2][90];
-
+// hard code the scores of the game
 void init(){
 	ans[0]['A'] = 11;
 	ans[0]['K'] = 4;
@@ -23,14 +23,16 @@ void init(){
 }
 int main(){
 	int numHands, i, score = 0;
-	char dom, c1,c2;
+	char dom, c1,c2; // c1 stores the card value. c2 stores the suit
 	
 	scanf("%d", &numHands);
-	numHands *=4;
+	numHands *=4; // each hand has 4 cards
 	scanf(" %c\n", &dom);
 	init();
+	// read in each card and determine the score
 	for(i=0; i<numHands;i++){
 		scanf("%c%c\n", &c1,&c2);
+		// (c2 != dom) == 1 or 0 depending on truth 
 		score += ans[c2!=dom][c1];
 	}
 	printf("%d\n", score);

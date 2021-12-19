@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// prints the excess or missing number of each chess piece
+
 // order : king, queen, rook, bishop, knight, pawn
 int main(){
 	int king, queen, rook, bishop, knight, pawn;

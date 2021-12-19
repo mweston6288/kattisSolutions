@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// add two given numbers
+
 int main(){
 	int a,b;
 	scanf("%d %d", &a, &b);

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// given a month and day, determine if it is halloween or christmas
+
 // I'm supposed to scan a 3 letter abbreviation of a month
 // and check if it is OCT or DEC, but those are the only months
 // that start with an O or D so I'm just checking the first letter.

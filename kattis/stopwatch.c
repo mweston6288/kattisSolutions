@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// at t=0, a stopped stopwatch is reading 0s
+// given a set of values for t, determine what the stopwatch reads if it is pressed at each time
+// if the stopwatch is still running, indicate that instead
+
 int main(){
 	int numPresses, prev, cur, res = 0;
 	scanf("%d", &numPresses);

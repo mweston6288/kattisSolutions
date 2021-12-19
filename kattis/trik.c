@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+
+// An object is placed in the leftmost cup (1), the cups are shuffled around.
+// determine which cup has the object
+
 /*
 	A - Swap 1 and 2
 	B - Swap 2 and 3

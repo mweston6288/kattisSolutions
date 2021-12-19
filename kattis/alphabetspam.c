@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
+// reads a string and gets the percent of capital, lowercase, spaces, and symbols
 int main(){
 	char spam[100010];
 	int cap, low, sym, white;
@@ -13,8 +14,10 @@ int main(){
 			cap++;
 		else if (islower(spam[i]))
 			low++;
+		// space is replaced with _
 		else if (spam[i] == '_')
 			white++;
+		// all other items
 		else
 			sym++;
 	}

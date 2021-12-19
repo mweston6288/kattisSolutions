@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// prints the number of inputs less than 0
 int main(){
 	int num,n,res=0, i;
 	scanf("%d", &num);

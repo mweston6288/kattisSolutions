@@ -12,7 +12,9 @@ int main(){
 		m = n;
 		n = i;
 	}
+	// increment n so it's not doing excess math in the loop
 	n++;
+	// print the most likely outcomes
 	for(i = m+1; i <= n; i++){
 		printf("%d\n", i);
 	}
