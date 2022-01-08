@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
 
 /*
 	Given a set of rectangles and circles on an xy plane, determine how many of them overlap on a given coordinate
@@ -57,8 +56,8 @@ int main(){
 	for(i = 0; i < numShapes;i++){
 		scanf("%s", type);
 		// literally the only time you have to check if it's a circle or rectangle
-		// despite what it looks like, this is true if the type is a rectangle
-		if (strcmp(type,"circle")){
+		// since I'm only checking rectangle or circle, I can just check the 0 index rather than checking the whole string
+		if (type[0] == 'r'){
 			dimensions = malloc(sizeof(int) * 4);
 			scanf(" %d %d %d %d\n", &dimensions[0],&dimensions[1],&dimensions[2],&dimensions[3]);
 			objects[i] = createObject(dimensions, &hitRectangle);
