@@ -19,7 +19,7 @@ int main(){
 	int n, m, l, k, i;
 	int *pop;
 	scanf("%d %d", &n, &m);
-	pop = malloc(sizeof(int) * (n+1));
+	pop = calloc(n+1, sizeof(int));
 	
 	// read in each pair of connections and increment the person
 	for(i = 0; i < m; i++){
